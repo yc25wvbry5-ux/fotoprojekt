@@ -5,153 +5,170 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fotoausstellung Mariella Räber</title>
+    <!-- Embed Stylesheet -->
+    <link rel="stylesheet" href="Assets/CSS/style.css">
+
+    <!-- Embed Font DM Serif-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+
+    <!-- Embed Font DM Sans-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <!-- header -->
-    <header>
-        <!-- Logo -->
-        <div class="logo">
-            <a href="index.html"><img src="Assets/Image/Element 1@300x.png" alt="Logo Sun"></a>
-        </div>
-        <!-- Navigation -->
-        <nav>
-            <ul>
-                <li>ausstellung</li>
-                <li>idee</li>
-                <li>galerie</li>
-                <li>kontakt</li>
-            </ul>
+    <header class="header">
+        <!-- Navigation Links -->
+        <nav class="nav-left">
+            <a href="#ausstellung">ausstellung</a>
+            <a href="#idee">idee</a>
         </nav>
-        <!-- header Ende -->
+        <!-- Logo -->
+        <div class="header-logo">
+            <img src="Assets/Image/Element 1@300x.png" alt="Sonne">
+        </div>
+        <!--Navigation Rechts-->
+        <nav class="nav-right">
+            <a href="#galerie">galerie</a>
+            <a href="#kontakt">kontakt</a>
+        </nav>
+    </header>
+    <!-- header Ende -->
 
-        <!-- hero -->
-        <section class="hero">
-            <h1>dolce far niente</h1>
+    <!-- hero -->
+    <section class="hero">
+        <h1>dolce far niente</h1>
+    </section>
+    <!-- hero Ende -->
+
+    <!-- main -->
+    <main>
+
+        <!-- Ausstellung -->
+        <section id="ausstellung">
+            <div class="ausstellung-box">
+                <!--Bild Links-->
+                <div class="ausstellung-bild">
+                    <img src="Assets/Image/P4140263.jpg" alt="Ausstellungsbild">
+                </div>
+
+                <!--Text Rechts-->
+                <div class="Ausstellung Text">
+                    <h2>ausstellung</h2>
+                    <p>Die Ausstellung «dolce far niente» von Mariella Räber zeigt eine Auswahl von Fotografien, die
+                        das süsse Nichtstun und die Freude am Leben in den Mittelpunkt stellen. Die Bilder fangen
+                        Momente der Entspannung, des Genusses und der Leichtigkeit ein, die das Leben bereichern.
+                        Die Ausstellung lädt die Besucher ein, sich in eine Welt des süssen Nichtstuns zu entführen
+                        und die Schönheit des Augenblicks zu genießen.</p>
+                    <!-- Button der zur Anmeldung scrollt-->
+                    <a href="#anmeldung Austellung" class="Button">Jetzt anmelden!</a>
+                </div>
+            </div>
         </section>
-        <!-- hero Ende -->
+        <!-- Ausstellung Ende -->
 
-        <!-- main -->
-        <main>
+        <!-- Idee -->
+        <section id="idee">
+            <h2>die Idee</h2>
+            <div class="idee-box">
+                <p>
+                    Meine Fotoserie beschäftigt sich mit dem Gefühl von Ferien und besonders mit dem italienischen
+                    Ausdruck „Dolce far niente“, der so viel bedeutet wie die Süße des Nichtstuns. Für mich
+                    beschreibt dieser Ausdruck einen Zustand ohne Stress, in dem man sich einfach in der Zeit
+                    verlieren darf.
 
-            <!-- Ausstellung -->
-            <section class="ausstellung">
-                <div class="ausstellung-box">
-                    <!--Bild Links-->
-                    <div class="ausstellung-bild">
-                        <img src="Assets/Image/P4140263.jpg" alt="Ausstellungsbild">
-                    </div>
+                    In meiner Serie zeige ich verschiedene Arten, wie man dieses Gefühl erleben kann. Jeder Mensch
+                    verbindet Ferien und das bewusste Hiersein auf seine eigene Weise. Deshalb habe ich sowohl
+                    Momente von Reisenden als auch Szenen von Locals eingefangen, die diesen entspannten Lebensstil
+                    verkörpern.
+                    Das Ziel meiner Fotoserie ist es, Menschen daran zu erinnern, das Leben langsamer und bewusster
+                    zu leben. Essen genießen, spielen, sich treiben lassen und nicht immer in Hektik verfallen.
+                    Meine Bilder sollen dazu inspirieren, diesen Lebensstil auch im Alltag umzusetzen und nicht nur
+                    in den Ferien.
+                </p>
+            </div>
+        </section>
+        <!-- Idee Ende -->
+        <!-- Galerie -->
+        <section id="galerie">
+            <div class="galerie-box">
+                <img src="Assets/Image/Galerie/MariellaRaeber_01.jpg" alt="Frau am Strand">
+                <img src="Assets/Image/Galerie/MariellaRaeber_02.jpg" alt="Paar am Eis essen">
+                <img src="Assets/Image/Galerie/MariellaRaeber_03.jpg" alt="Stuhl am Strand">
+                <img src="Assets/Image/Galerie/MariellaRaeber_04.jpg" alt="Mann am Balkon">
+                <img src="Assets/Image/Galerie/MariellaRaeber_05.jpg" alt="Zwei Frauen am Meer">
+                <img src="Assets/Image/Galerie/MariellaRaeber_06.jpg" alt="Segelboot auf dem Meer">
+                <img src="Assets/Image/Galerie/MariellaRaeber_07.jpg" alt="Frau trinkt Aperol Spritz">
+            </div>
+        </section>
+        <!-- Galerie Ende -->
+        <!-- Anmeldung Ausstellung -->
+        <!-- Anmeldungsformular hero -->
+        <section class="Anmeldungsformular">
+            <div class="anmeldung-hero">
+                <h2>anmeldung Ausstellung</h2>
+            </div>
 
-                    <!--Text Rechts-->
-                    <div class="Ausstellung Text">
-                        <h2>ausstellung</h2>
-                        <p>Die Ausstellung «dolce far niente» von Mariella Räber zeigt eine Auswahl von Fotografien, die
-                            das süsse Nichtstun und die Freude am Leben in den Mittelpunkt stellen. Die Bilder fangen
-                            Momente der Entspannung, des Genusses und der Leichtigkeit ein, die das Leben bereichern.
-                            Die Ausstellung lädt die Besucher ein, sich in eine Welt des süssen Nichtstuns zu entführen
-                            und die Schönheit des Augenblicks zu genießen.</p>
-                        <!-- Button der zur Anmeldung scrollt-->
-                        <a href="#anmeldung Austellung" class="Button">Jetzt anmelden!</a>
-                    </div>
+            <!-- Anmeldungaformular Content -->
+            <div class="anmeldung-content">
+                <div class="anmeldung-form">
+                    <form action="#">
+                        <label for="fname">
+                            <p>Vorname</p>
+                        </label>
+                        <input type="text" id="fname" name="firstname" placeholder="Ihr Vorname...">
+
+                        <label for="lname">
+                            <p>Nachname</p>
+                        </label>
+                        <input type="text" id="lname" name="lastname" placeholder="Ihr Nachname...">
+
+                        <label for="email">
+                            <p>E-Mail</p>
+                        </label>
+                        <input type="email" id="email" name="email" placeholder="Ihre E-Mail-Adresse...">
+
+                        <label for="message">
+                            <p>Nachricht</p>
+                        </label>
+                        <textarea id="message" name="message" placeholder="Ihre Nachricht..."></textarea>
+
+                        <button type="submit" class="button">Senden</button>
+                    </form>
                 </div>
-            </section>
-            <!-- Ausstellung Ende -->
-
-            <!-- Idee -->
-            <section class="idee">
-                <h2>die Idee</h2>
-                <div class="idee-box">
-                    <p>
-                        Meine Fotoserie beschäftigt sich mit dem Gefühl von Ferien und besonders mit dem italienischen
-                        Ausdruck „Dolce far niente“, der so viel bedeutet wie die Süße des Nichtstuns. Für mich
-                        beschreibt dieser Ausdruck einen Zustand ohne Stress, in dem man sich einfach in der Zeit
-                        verlieren darf.
-
-                        In meiner Serie zeige ich verschiedene Arten, wie man dieses Gefühl erleben kann. Jeder Mensch
-                        verbindet Ferien und das bewusste Hiersein auf seine eigene Weise. Deshalb habe ich sowohl
-                        Momente von Reisenden als auch Szenen von Locals eingefangen, die diesen entspannten Lebensstil
-                        verkörpern.
-                        Das Ziel meiner Fotoserie ist es, Menschen daran zu erinnern, das Leben langsamer und bewusster
-                        zu leben. Essen genießen, spielen, sich treiben lassen und nicht immer in Hektik verfallen.
-                        Meine Bilder sollen dazu inspirieren, diesen Lebensstil auch im Alltag umzusetzen und nicht nur
-                        in den Ferien.
-                    </p>
-                </div>
-            </section>
-            <!-- Idee Ende -->
-            <!-- Galerie -->
-            <section class="galerie">
-                <div class="galerie-box">
-                    <img src="Assets/Image/Galerie/MariellaRaeber_01.jpg" alt="Frau am Strand">
-                    <img src="Assets/Image/Galerie/MariellaRaeber_02.jpg" alt="Paar am Eis essen">
-                    <img src="Assets/Image/Galerie/MariellaRaeber_03.jpg" alt="Stuhl am Strand">
-                    <img src="Assets/Image/Galerie/MariellaRaeber_04.jpg" alt="Mann am Balkon">
-                    <img src="Assets/Image/Galerie/MariellaRaeber_05.jpg" alt="Zwei Frauen am Meer">
-                    <img src="Assets/Image/Galerie/MariellaRaeber_06.jpg" alt="Segelboot auf dem Meer">
-                    <img src="Assets/Image/Galerie/MariellaRaeber_07.jpg" alt="Frau trinkt Aperol Spritz">
-                </div>
-            </section>
-            <!-- Galerie Ende -->
-            <!-- Anmeldung Ausstellung -->
-            <!-- Anmeldungsformular hero -->
-            <section class="Anmeldungsformular">
-                <div class="anmeldung-hero">
-                    <h2>anmeldung Ausstellung</h2>
+            </div>
+        </section>
+        <!-- Anmeldung Ausstellung Ende -->
+        <!-- Kontakt -->
+        <section id="kontakt">
+            <div class="kontakt-box">
+                <!--Bild Links-->
+                <div class="kontakt-bild">
+                    <img src="Assets/Image/P4140239.JPG" alt="Mariella Räber">
                 </div>
 
-                <!-- Anmeldungaformular Content -->
-                <div class="anmeldung-content">
-                    <div class="anmeldung-form">
-                        <form action="#">
-                            <label for="fname">
-                                <p>Vorname</p>
-                            </label>
-                            <input type="text" id="fname" name="firstname" placeholder="Ihr Vorname...">
-
-                            <label for="lname">
-                                <p>Nachname</p>
-                            </label>
-                            <input type="text" id="lname" name="lastname" placeholder="Ihr Nachname...">
-
-                            <label for="email">
-                                <p>E-Mail</p>
-                            </label>
-                            <input type="email" id="email" name="email" placeholder="Ihre E-Mail-Adresse...">
-
-                            <label for="message">
-                                <p>Nachricht</p>
-                            </label>
-                            <textarea id="message" name="message" placeholder="Ihre Nachricht..."></textarea>
-
-                            <button type="submit" class="button">Senden</button>
-                        </form>
-                    </div>
+                <!--Text Rechts-->
+                <div class="kontakt-text">
+                    <h2>Kontakt</h2>
+                    <p>Wenn Sie Interesse an der Ausstellung haben oder Fragen zur Anmeldung, wenden Sie sich gerne
+                        an:</p>
+                    <p>Mariella Räber</p>
+                    <p>Email: mariella.raeber@gmail.com</p>
+                    <p>Telefon: +41 77 466 84 79</p>
                 </div>
-            </section>
-            <!-- Anmeldung Ausstellung Ende -->
-            <!-- Kontakt -->
-            <section class="kontakt">
-                <div class="kontakt-box">
-                    <!--Bild Links-->
-                    <div class="kontakt-bild">
-                        <img src="Assets/Image/P4140239.JPG" alt="Mariella Räber">
-                    </div>
+            </div>
+    </main>
 
-                    <!--Text Rechts-->
-                    <div class="kontakt-text">
-                        <h2>Kontakt</h2>
-                        <p>Wenn Sie Interesse an der Ausstellung haben oder Fragen zur Anmeldung, wenden Sie sich gerne
-                            an:</p>
-                        <p>Mariella Räber</p>
-                        <p>Email: mariella.raeber@gmail.com</p>
-                        <p>Telefon: +41 77 466 84 79</p>
-                    </div>
-                </div>
-        </main>
-
-        <!-- Footer -->
-        <footer>
-            <p class="footer-text">© Mariella Räber</p>
-        </footer>
+    <!-- Footer -->
+    <footer>
+        <p class="footer-text">© Mariella Räber</p>
+    </footer>
 </body>
+
 </html>

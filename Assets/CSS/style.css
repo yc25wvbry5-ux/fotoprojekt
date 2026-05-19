@@ -1,0 +1,80 @@
+ /* Browser Reset */
+ * {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     box-sizing: border-box;
+ }
+  /* Root Colors */
+ :root {
+     --black: #000000;
+     --beige: #FFEED1;
+     --light-blue: #75C6E5;
+     --yellow: #FFCF6A;
+     --peach: #FF7D57;
+     --olive: #8A8551;
+     --white: #FFFFFF;
+ }
+
+  /* Font */
+  h1 {
+    font-family: 'DM Serif Text', serif;
+    font-size: 96px;
+    color: var(--yellow);
+  }
+
+h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 48px;
+    color: var(--light-blue);
+}
+
+p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    color: var(--black);
+}
+
+ /* Basics */
+ main {
+     max-width: 2000px;
+     margin: 20px 60px
+ }
+
+ html,
+ body {
+     background-color: var(--beige);
+     height: 100%;
+ }
+
+
+ /* Header */
+ header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--peach); 
+    padding: 14px 60px;
+}
+
+/* Navigation */
+.nav-left,
+.nav-right {
+    display: flex;
+    gap: 10vw;
+}
+
+/* Schrift Header */
+header a {
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    color: var(--beige);
+}
+
+/* Sonne in der Mitte */
+.header-logo img {
+    width: 60px;
+    height: auto;
+    object-fit: contain;
+}
