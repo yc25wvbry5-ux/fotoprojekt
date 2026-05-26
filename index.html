@@ -8,6 +8,9 @@
     <!-- Embed Stylesheet -->
     <link rel="stylesheet" href="Assets/CSS/style.css">
 
+    <!-- Embed Iconoir Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css" />
+
     <!-- Embed Font DM Serif-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,20 +27,26 @@
 <body>
     <!-- header -->
     <header class="header">
-        <!-- Navigation Links -->
-        <nav class="nav-left">
-            <a href="#ausstellung">ausstellung</a>
-            <a href="#idee">idee</a>
-        </nav>
-        <!-- Logo -->
+          <!-- Logo -->
         <div class="header-logo">
             <img src="Assets/Image/Element 1@300x.png" alt="Sonne">
+            <a href="index.html"></a>
         </div>
-        <!--Navigation Rechts-->
-        <nav class="nav-right">
-            <a href="#gallery">galerie</a>
-            <a href="#kontakt">kontakt</a>
+        
+        <!-- Navigation -->
+        <nav class="nav">
+            <ul>
+            <li><a href="#ausstellung">ausstellung</a></li>
+            <li><a href="#idee">idee</a></li>
+            <li><a href="#gallery">galerie</a></li>
+            <li><a href="#kontakt">kontakt</a></li>
+            </ul>
         </nav>
+
+        <a href="#" class="menu-icon">
+            <i class="iconoir-menu-scale open"></i>
+            <i class="iconoir-xmark close"></i>
+        </a>
     </header>
     <!-- header Ende -->
 
@@ -138,24 +147,24 @@
                 <div class="anmeldung-form">
                     <form action="#">
                         <label for="fname">
-                            <p>Vorname</p>
+                            <p>vorname</p>
                         </label>
-                        <input type="text" id="fname" name="firstname" placeholder="Ihr Vorname...">
+                        <input type="text" id="fname" name="firstname">
 
                         <label for="lname">
-                            <p>Nachname</p>
+                            <p>nachname</p>
                         </label>
-                        <input type="text" id="lname" name="lastname" placeholder="Ihr Nachname...">
+                        <input type="text" id="lname" name="lastname">
 
                         <label for="email">
-                            <p>E-Mail</p>
+                            <p>e-mail</p>
                         </label>
-                        <input type="email" id="email" name="email" placeholder="Ihre E-Mail-Adresse...">
+                        <input type="email" id="email" name="email">
 
                         <label for="message">
-                            <p>Nachricht</p>
+                            <p>nachricht</p>
                         </label>
-                        <textarea id="message" name="message" placeholder="Ihre Nachricht..."></textarea>
+                        <textarea id="message" name="message"></textarea>
 
                         <button type="submit" class="button">senden</button>
                     </form>
@@ -168,12 +177,12 @@
             <div class="kontakt-box">
                 <!--Bild Links-->
                 <div class="kontakt-bild">
-                    <img src="Assets/Image/P4140239.JPG" alt="Mariella Räber">
+                    <img src="Assets/Image/P4140239-2.jpg" alt="Mariella Räber">
                 </div>
 
                 <!--Text Rechts-->
                 <div class="kontakt-text">
-                    <h2>Kontakt</h2>
+                    <h2>kontakt</h2>
                     <p>Wenn Sie Interesse an der Ausstellung haben oder Fragen zur Anmeldung, wenden Sie sich gerne
                         an:</p>
                     <p>Mariella Räber</p>
@@ -188,6 +197,12 @@
     <footer>
         <p class="footer-text">© Mariella Räber</p>
     </footer>
+
+
+    <!-- Jquery & JS laden -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="assets/java/main.js"></script>
+
 </body>
 
 </html>
