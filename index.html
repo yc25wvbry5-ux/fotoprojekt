@@ -35,7 +35,7 @@
         </div>
         <!--Navigation Rechts-->
         <nav class="nav-right">
-            <a href="#galerie">galerie</a>
+            <a href="#gallery">galerie</a>
             <a href="#kontakt">kontakt</a>
         </nav>
     </header>
@@ -67,7 +67,7 @@
                         Die Ausstellung lädt die Besucher ein, sich in eine Welt des süssen Nichtstuns zu entführen
                         und die Schönheit des Augenblicks zu genießen.</p>
                     <!-- Button der zur Anmeldung scrollt-->
-                    <a href="#anmeldung Austellung" class="button">Jetzt anmelden!</a>
+                    <a href="#Anmeldungsformular" class="button">jetzt anmelden!</a>
                 </div>
             </div>
         </section>
@@ -75,18 +75,21 @@
 
         <!-- Idee -->
         <section id="idee">
-            <h2>die Idee</h2>
-            <div class="idee-box">
+            <div class="idee-textblock">
+                <h2>die Idee</h2>
                 <p>
                     Meine Fotoserie beschäftigt sich mit dem Gefühl von Ferien und besonders mit dem italienischen
                     Ausdruck „Dolce far niente“, der so viel bedeutet wie die Süße des Nichtstuns. Für mich
                     beschreibt dieser Ausdruck einen Zustand ohne Stress, in dem man sich einfach in der Zeit
                     verlieren darf.
-
+                </p>
+                <p>
                     In meiner Serie zeige ich verschiedene Arten, wie man dieses Gefühl erleben kann. Jeder Mensch
                     verbindet Ferien und das bewusste Hiersein auf seine eigene Weise. Deshalb habe ich sowohl
                     Momente von Reisenden als auch Szenen von Locals eingefangen, die diesen entspannten Lebensstil
                     verkörpern.
+                </p>
+                <p>
                     Das Ziel meiner Fotoserie ist es, Menschen daran zu erinnern, das Leben langsamer und bewusster
                     zu leben. Essen genießen, spielen, sich treiben lassen und nicht immer in Hektik verfallen.
                     Meine Bilder sollen dazu inspirieren, diesen Lebensstil auch im Alltag umzusetzen und nicht nur
@@ -96,21 +99,36 @@
         </section>
         <!-- Idee Ende -->
         <!-- Galerie -->
-        <section id="galerie">
-            <div class="galerie-box">
-                <img src="Assets/Image/Galerie/MariellaRaeber_01.jpg" alt="Frau am Strand">
-                <img src="Assets/Image/Galerie/MariellaRaeber_02.jpg" alt="Paar am Eis essen">
-                <img src="Assets/Image/Galerie/MariellaRaeber_03.jpg" alt="Stuhl am Strand">
-                <img src="Assets/Image/Galerie/MariellaRaeber_04.jpg" alt="Mann am Balkon">
-                <img src="Assets/Image/Galerie/MariellaRaeber_05.jpg" alt="Zwei Frauen am Meer">
-                <img src="Assets/Image/Galerie/MariellaRaeber_06.jpg" alt="Segelboot auf dem Meer">
-                <img src="Assets/Image/Galerie/MariellaRaeber_07.jpg" alt="Frau trinkt Aperol Spritz">
+        <section id="gallery">
+            <!-- Gallerie Titel -->
+            <div class="gallery-title">
+                <h2>galerie</h2>
+            </div>
+            <!-- Bento Grid -->
+            <div class="bento-container-1">
+                <img src="Assets/Image/Galerie/MariellaRaeber_06.jpg" alt="Segelboot auf dem Meer"
+                    class="project-item-c1">
+
+                <img src="Assets/Image/Galerie/MariellaRaeber_01.jpg" alt="Frau am Strand" class="project-item-c2">
+            </div>
+
+            <div class="bento-container-2">
+                <img src="Assets/Image/Galerie/MariellaRaeber_02.jpg" alt="Paar am Eis essen" class="project-item-1">
+
+                <img src="Assets/Image/Galerie/MariellaRaeber_03.jpg" alt="Stuhl am Strand" class="project-item-2">
+
+                <img src="Assets/Image/Galerie/MariellaRaeber_04.jpg" alt="Mann am Balkon" class="project-item-3">
+
+                <img src="Assets/Image/Galerie/MariellaRaeber_05.jpg" alt="Zwei Frauen am Meer" class="project-item-4">
+
+                <img src="Assets/Image/Galerie/MariellaRaeber_07.jpg" alt="Frau trinkt Aperol Spritz"
+                    class="project-item-5">
             </div>
         </section>
         <!-- Galerie Ende -->
         <!-- Anmeldung Ausstellung -->
         <!-- Anmeldungsformular hero -->
-        <section class="Anmeldungsformular">
+        <section id="Anmeldungsformular">
             <div class="anmeldung-hero">
                 <h2>anmeldung Ausstellung</h2>
             </div>
@@ -139,7 +157,7 @@
                         </label>
                         <textarea id="message" name="message" placeholder="Ihre Nachricht..."></textarea>
 
-                        <button type="submit" class="button">Senden</button>
+                        <button type="submit" class="button">senden</button>
                     </form>
                 </div>
             </div>
@@ -163,6 +181,7 @@
                     <p>Telefon: +41 77 466 84 79</p>
                 </div>
             </div>
+        </section>
     </main>
 
     <!-- Footer -->
