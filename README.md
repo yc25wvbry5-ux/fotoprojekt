@@ -8,7 +8,7 @@ Inhaltlich wollte ich keine grosse Geschichte erzählen, sondern ein Gefühl ver
 # Reflexion
 ## Was hat beim Projekt gut funktioniert?
 Besonders gut funktioniert hat die Kombination aus Fotografie und Webdesign. Die Bilder haben von Anfang an eine klare Stimmung vermittelt, und es fiel mir dadurch leichter, diese Atmosphäre auch im Design der Website umzusetzen. Auch die Struktur des One-Pagers hat gut funktioniert, weil die verschiedenen Abschnitte logisch aufgebaut sind und man sich einfach auf der Seite zurechtfindet.
-Technisch lief vieles besser, als ich am Anfang erwartet hatte. Sobald ich verstanden hatte, wie CSS-Variablen, Media Queries sowie Flexbox und Grid funktionieren, konnte ich viele Elemente schneller und sauberer umsetzen. Auch das Mobile-Menü hat nach einigen Anpassungen gut funktioniert und macht die Website auf dem Smartphone angenehm benutzbar.
+Technisch lief vieles besser, als ich am Anfang erwartet hatte. Sobald ich wieder verstanden hatte, wie CSS-Variablen, Media Queries sowie Flexbox und Grid funktionieren, konnte ich viele Elemente schneller und sauberer umsetzen. Auch das Mobile-Menü hat nach einigen Anpassungen gut funktioniert und macht die Website auf dem Smartphone angenehm benutzbar.
 
 ## Wo bist du an Grenzen gestossen?
 An Grenzen gestossen bin ich vor allem dort, wo Design und Technik zusammenhängen. Manche Layouts sahen auf dem Desktop richtig gut aus, hatten auf dem Smartphone aber plötzlich Probleme. Teilweise waren Elemente zu breit, Grids verschoben oder die Abstände wirkten nicht mehr passend.
@@ -16,5 +16,5 @@ Auch der Dark Mode war zuerst schwierig. Am Anfang habe ich versucht, neue Varia
 Eine weitere Herausforderung war die Balance zwischen Ästhetik und Performance. Ich wollte grosse und emotionale Bilder verwenden, musste aber gleichzeitig darauf achten, dass die Website trotzdem schnell lädt.
 
 ## Was hast du dabei gelernt, das du nicht erwartet hättest?
-Ich hätte nicht erwartet, wie stark kleine technische Details die gesamte User Experience beeinflussen können. Dinge wie 100vw statt 100%, ein falsch gesetztes object-fit oder ein Menü, das sich nicht automatisch schliesst, wirken zuerst unwichtig, machen aber am Ende einen grossen Unterschied für die Wirkung der Website.
+Ich hätte nicht erwartet, wie stark kleine technische Details die gesamte User Experience beeinflussen können. Dinge wie 100vw statt 100%, ein falsch gesetztes object-fit wirken zuerst unwichtig, machen aber am Ende einen grossen Unterschied für die Wirkung der Website.
 Ausserdem habe ich gelernt, wie wichtig sauberes Arbeiten mit Variablen ist. Dass man im Dark Mode einfach bestehende Variablen überschreibt, statt komplett neue zu definieren, war für mich ein richtiger Aha-Moment.
