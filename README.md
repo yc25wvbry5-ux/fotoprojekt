@@ -1,1 +1,19 @@
-# fotoprojekt
+# Fotoprojekt
+dolce far niente ist ein fotografischer One‑Pager, der das Gefühl von bewusstem Nichtstun einfängt. Mir ging es darum, eine ruhige, sommerliche Atmosphäre zu schaffen, die man schon beim ersten Scrollen spürt. Das Projekt verbindet meine eigenen Fotos mit einem klaren Webdesign, sodass eine kleine Online‑Welt entsteht, in der man für einen Moment abschalten kann. Die Seite führt Besucherinnen und Besucher durch verschiedene Bildwelten, die alle dieselbe Stimmung transportieren: Leichtigkeit, Entschleunigung und ein Hauch von mediterranem Sommer.
+Die Website ist bewusst einfach aufgebaut. Man startet mit einem grossen Hero‑Bild, das direkt die Stimmung setzt. Danach folgen die Bereiche Ausstellung, Idee, Galerie und Kontakt. Jeder Abschnitt ist schlicht gestaltet und nutzt eine warme, harmonische Farbpalette aus Beige, Blau und sanften Akzenten, damit die Fotos im Mittelpunkt bleiben. Die Galerie habe ich als Bento‑Grid umgesetzt, damit die Bilder unterschiedlich gross wirken und das Layout lebendig, aber trotzdem ruhig bleibt.
+Technisch ist der One‑Pager komplett responsiv, also für alle Bildschirmgrössen optimiert. Auf dem Handy verwandelt sich die Navigation in ein übersichtliches Burger‑Menü, das sich automatisch wieder schliesst, wenn man auf einen Link klickt. Zusätzlich habe ich einen Dark Mode integriert, der sich automatisch an das System des Nutzers anpasst und die Farben entsprechend wechselt.
+Inhaltlich wollte ich keine grosse Geschichte erzählen, sondern ein Gefühl vermitteln. Die Fotos zeigen kleine, alltägliche Momente: Menschen im Gespräch, ruhige Küstenlandschaften oder warme Strassen in südlichen Städten. Zusammen mit dem reduzierten Layout entsteht eine digitale Umgebung, die einen kurz aus dem Alltag holt und in eine entspannte, sommerliche Stimmung eintauchen lässt.
+
+# Reflexion
+## Was hat beim Projekt gut funktioniert?
+Besonders gut funktioniert hat die Kombination aus Fotografie und Webdesign. Die Bilder haben von Anfang an eine klare Stimmung vermittelt, und es fiel mir dadurch leichter, diese Atmosphäre auch im Design der Website umzusetzen. Auch die Struktur des One-Pagers hat gut funktioniert, weil die verschiedenen Abschnitte logisch aufgebaut sind und man sich einfach auf der Seite zurechtfindet.
+Technisch lief vieles besser, als ich am Anfang erwartet hatte. Sobald ich verstanden hatte, wie CSS-Variablen, Media Queries sowie Flexbox und Grid funktionieren, konnte ich viele Elemente schneller und sauberer umsetzen. Auch das Mobile-Menü hat nach einigen Anpassungen gut funktioniert und macht die Website auf dem Smartphone angenehm benutzbar.
+
+## Wo bist du an Grenzen gestossen?
+An Grenzen gestossen bin ich vor allem dort, wo Design und Technik zusammenhängen. Manche Layouts sahen auf dem Desktop richtig gut aus, hatten auf dem Smartphone aber plötzlich Probleme. Teilweise waren Elemente zu breit, Grids verschoben oder die Abstände wirkten nicht mehr passend.
+Auch der Dark Mode war zuerst schwierig. Am Anfang habe ich versucht, neue Variablen zu erstellen, statt die bestehenden zu überschreiben. Dadurch funktionierte vieles nicht wie geplant, und ich musste mich nochmals genauer mit der Logik von CSS auseinandersetzen.
+Eine weitere Herausforderung war die Balance zwischen Ästhetik und Performance. Ich wollte grosse und emotionale Bilder verwenden, musste aber gleichzeitig darauf achten, dass die Website trotzdem schnell lädt.
+
+## Was hast du dabei gelernt, das du nicht erwartet hättest?
+Ich hätte nicht erwartet, wie stark kleine technische Details die gesamte User Experience beeinflussen können. Dinge wie 100vw statt 100%, ein falsch gesetztes object-fit oder ein Menü, das sich nicht automatisch schliesst, wirken zuerst unwichtig, machen aber am Ende einen grossen Unterschied für die Wirkung der Website.
+Ausserdem habe ich gelernt, wie wichtig sauberes Arbeiten mit Variablen ist. Dass man im Dark Mode einfach bestehende Variablen überschreibt, statt komplett neue zu definieren, war für mich ein richtiger Aha-Moment.
