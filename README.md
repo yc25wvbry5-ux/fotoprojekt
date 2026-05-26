@@ -3,7 +3,7 @@ dolce far niente ist ein fotografischer One‑Pager, der das Gefühl von bewusst
 Die Website ist bewusst einfach aufgebaut. Man startet mit einem grossen Hero‑Bild, das direkt die Stimmung setzt. Danach folgen die Bereiche Ausstellung, Idee, Galerie und Kontakt. Jeder Abschnitt ist schlicht gestaltet und nutzt eine warme, harmonische Farbpalette aus Beige, Blau und sanften Akzenten, damit die Fotos im Mittelpunkt bleiben. Die Galerie habe ich als Bento‑Grid umgesetzt, damit die Bilder unterschiedlich gross wirken und das Layout lebendig, aber trotzdem ruhig bleibt.
 Technisch ist der One‑Pager komplett responsiv, also für alle Bildschirmgrössen optimiert. Auf dem Handy verwandelt sich die Navigation in ein übersichtliches Burger‑Menü.
 Zusätzlich habe ich einen Dark Mode integriert, der sich automatisch an das System des Nutzers anpasst und die Farben entsprechend wechselt.
-Inhaltlich wollte ich keine grosse Geschichte erzählen, sondern ein Gefühl vermitteln. Die Fotos zeigen kleine, alltägliche Momente: Menschen im Gespräch, ruhige Küstenlandschaften oder warme Strassen in südlichen Städten. Zusammen mit dem reduzierten Layout entsteht eine digitale Umgebung, die einen kurz aus dem Alltag holt und in eine entspannte, sommerliche Stimmung eintauchen lässt.
+Inhaltlich wollte ich keine grosse Geschichte erzählen, sondern ein Gefühl vermitteln. Zusammen mit dem reduzierten Layout entsteht eine digitale Umgebung, die einen kurz aus dem Alltag holt und in eine entspannte, sommerliche Stimmung eintauchen lässt.
 
 # Reflexion
 ## Was hat beim Projekt gut funktioniert?
